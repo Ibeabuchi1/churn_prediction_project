@@ -1,7 +1,8 @@
 
 import requests
 
-url = 'http://localhost:6060/churn'
+host = 'churn-serving-env.eba-xw9hfupp.us-east-2.elasticbeanstalk.com'
+url = f'http://{host}/churn'
 
 customer_id = 'abc-xyz'
 
